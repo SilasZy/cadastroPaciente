@@ -1,0 +1,85 @@
+
+
+.mt-perf{
+    margin: 7rem;
+   margin-left: 500px;
+}
+body{
+   background-color: #d4e9e2; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 300px;
+width: 300px;
+position: relative;
+background-image: url(paciente/hospital_image.jpg);
+background-size: cover;
+
+  
+}
+.container-foto{
+   
+    height: 300px;
+    width: 100px;
+   left: 350px;
+   top:  100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    
+}
+.container-foto .img-fluid{
+    height: 330px;
+    float: left;
+}
+.container-foto1{
+    position: absolute;
+    height: 300px;
+    width: 100px;
+   left: 840px;
+   top:  100px;
+    display: flex;
+    justify-content: center;
+
+    transform: scaleX(-1);
+   
+}
+.container-foto1 .img-fluid{
+    height: 330px;
+    float: left;
+}
+/*card agora */
+.paciente{
+    font-family: 'Anton', sans-serif;
+        text-shadow: 1px 2px 1px green;
+      font-weight: bold;
+      
+  
+}
+.campos{
+    font-family: 'Anton', sans-serif;
+    font-size: 23px;
+    text-shadow: 1px 2px 1px green;
+    font-weight: bold;
+}
+.cpf{
+    border-radius: 30px;
+    
+}
+.nome{
+    border-radius: 30px;
+}
+.email{
+    border-radius: 30px;
+}
+.senha{
+    border-radius: 30px;
+}
